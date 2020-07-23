@@ -1,0 +1,4 @@
+[submodule "sia"]
+	path = sia
+	url = ./sia
+	datalad-id = 438c894a-ccdf-11ea-89fc-e5b56fefe77d
