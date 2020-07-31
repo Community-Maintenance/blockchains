@@ -6,3 +6,7 @@
 	path = bitcoin-core
 	url = ../blockchains-bitcoin-core
 	datalad-id = c8edad8c-cce2-11ea-89fc-e5b56fefe77d
+[submodule "bitcoin-sv"]
+	path = bitcoin-sv
+	url = ./bitcoin-sv
+	datalad-id = 7656c210-d337-11ea-af60-0c5415b7f8c7
