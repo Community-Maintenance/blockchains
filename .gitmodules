@@ -14,3 +14,7 @@
 	path = bitcoin-cash
 	url = ./bitcoin-cash
 	datalad-id = f3579f98-d344-11ea-bfc2-0c5415b7f8c7
+[submodule "bitcoin-core-other"]
+	path = bitcoin-core-other
+	url = ./bitcoin-core-other
+	datalad-id = 8d033a9e-d345-11ea-9f9c-0c5415b7f8c7
