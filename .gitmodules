@@ -10,3 +10,7 @@
 	path = bitcoin-sv
 	url = ./bitcoin-sv
 	datalad-id = 7656c210-d337-11ea-af60-0c5415b7f8c7
+[submodule "bitcoin-cash"]
+	path = bitcoin-cash
+	url = ./bitcoin-cash
+	datalad-id = f3579f98-d344-11ea-bfc2-0c5415b7f8c7
