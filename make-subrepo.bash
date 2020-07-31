@@ -1,11 +1,1 @@
-#!/usr/bin/env bash
-if [ "$1" == "" ] || [ "$2" != "" ]
-then
-	echo "usage: $0 NAME"
-	exit -1
-fi
-datalad create -d . -D "$2" "$1"
-pushd "$1" && git annex initremote skynet chunk=128MiB type=external encryption=none externaltype=siaskynet; popd
-datalad create-sibling-github -d "$1" --github-organization Community-Maintenance --github-login passwordisusernamebackwards --github-passwd sdrawkcabemanresusidrowssap blockchains-"$1"
-datalad siblings add -d "$1" -s bsv --no-annex-info --url bsv://L3zZQetoHkdMrsiEPtZEks1Ct98d56ZLxDBiatLpRBJA7Y1xELyB/blockchains-"$1".git
-
+.git/annex/objects/00/V2/SHA3_512E-s654--3e54df18ee1b0e9ed4bcbcc64223a88b287fa1438148500fb825e21021b41a8b23650f881f875ad5a2a918ba0d91a9a203d47e68d6ef05d7989dcaa373de2dce.bash/SHA3_512E-s654--3e54df18ee1b0e9ed4bcbcc64223a88b287fa1438148500fb825e21021b41a8b23650f881f875ad5a2a918ba0d91a9a203d47e68d6ef05d7989dcaa373de2dce.bash
