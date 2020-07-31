@@ -1,8 +1,8 @@
 [submodule "sia"]
 	path = sia
-	url = ./sia
+	url = ../blockchains-sia
 	datalad-id = 438c894a-ccdf-11ea-89fc-e5b56fefe77d
 [submodule "bitcoin-core"]
 	path = bitcoin-core
-	url = ./bitcoin-core
+	url = ../blockchains-bitcoin-core
 	datalad-id = c8edad8c-cce2-11ea-89fc-e5b56fefe77d
