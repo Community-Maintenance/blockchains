@@ -1,2 +1,7 @@
 This repository is hosted in the Community-Maintenance organization on github.
 The github user passwordisusernamebackwards can be used to log in.  Their e-mail can be checked at 34xc7icx0m-password-is-username@riseup.net .
+
+i tried to set up decentragit but it didn't seem to work ... private key is in libsecret on my onno laptop 
+dgit: 
+	user public address: 0x91cA56B51e9985AAeE6CAC137A8aD2F1c9751054
+	repo unique id: did:tupelo:0xA07861F7d0b9e53920dc9D40B99459C6d51Fc66b
