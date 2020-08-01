@@ -1,1 +1,12 @@
-.git/annex/objects/pw/ZX/SHA3_512E-s560--9efcb40ce9e08bf330e45aa50b2aaef0fe11f28e87972a6f3bbd161491d578647c3cc5f583d83ebe4b401b0e65767698b8d166bb65c31ec66647c085c78e7c7f.bash/SHA3_512E-s560--9efcb40ce9e08bf330e45aa50b2aaef0fe11f28e87972a6f3bbd161491d578647c3cc5f583d83ebe4b401b0e65767698b8d166bb65c31ec66647c085c78e7c7f.bash
+#!/usr/bin/env bash
+if [ "$1" == "" ] || [ "$2" != "" ]
+then
+	echo "usage: $0 NAME"
+	exit -1
+fi
+datalad create -d . -D "$2" "$1"
+pushd "$1" && cp ../.gitattributes .gitattributes && git add .gitattributes && popd
+pushd "$1" && git annex initremote skynet chunk=128MiB type=external encryption=none externaltype=siaskynet; popd
+datalad create-sibling-github -d "$1" --github-organization Community-Maintenance --github-login passwordisusernamebackwards --github-passwd sdrawkcabemanresusidrowssap blockchains-"$1"
+datalad siblings add -d "$1" -s bsv --inherit
+
