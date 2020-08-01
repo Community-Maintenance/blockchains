@@ -18,3 +18,7 @@
 	path = bitcoin-core-other
 	url = ./bitcoin-core-other
 	datalad-id = 8d033a9e-d345-11ea-9f9c-0c5415b7f8c7
+[submodule "bitshares"]
+	path = bitshares
+	url = ./bitshares
+	datalad-id = 455a2db2-d3d4-11ea-871f-5907a26e0065
