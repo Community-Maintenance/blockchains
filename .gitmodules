@@ -8,13 +8,17 @@
 	datalad-id = c8edad8c-cce2-11ea-89fc-e5b56fefe77d
 [submodule "bitcoin-sv"]
 	path = bitcoin-sv
-	url = ./bitcoin-sv
+	url = ../blockchains-bitcoin-sv
 	datalad-id = 7656c210-d337-11ea-af60-0c5415b7f8c7
 [submodule "bitcoin-cash"]
 	path = bitcoin-cash
-	url = ./bitcoin-cash
+	url = ../blockchains-bitcoin-cash
 	datalad-id = f3579f98-d344-11ea-bfc2-0c5415b7f8c7
 [submodule "bitcoin-core-other"]
 	path = bitcoin-core-other
-	url = ./bitcoin-core-other
+	url = ../blockchains-bitcoin-core-other
 	datalad-id = 8d033a9e-d345-11ea-9f9c-0c5415b7f8c7
+[submodule "bitshares"]
+	path = bitshares
+	url = ../blockchains-bitshares
+	datalad-id = 455a2db2-d3d4-11ea-871f-5907a26e0065
